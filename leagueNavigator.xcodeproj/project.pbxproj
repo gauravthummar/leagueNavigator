@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC426AA622358B100058B01D /* TeamListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC426AA522358B100058B01D /* TeamListTableViewCell.m */; };
+		BC8D81DD222C9216004AD5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8D81DB222C9216004AD5AF /* Main.storyboard */; };
+		BC8D81DF222C9216004AD5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8D81DE222C9216004AD5AF /* Assets.xcassets */; };
+		BC8D81E2222C9216004AD5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8D81E0222C9216004AD5AF /* LaunchScreen.storyboard */; };
+		BC8D81E5222C9216004AD5AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D81E4222C9216004AD5AF /* main.m */; };
+		BC8D81EF222C9217004AD5AF /* leagueNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D81EE222C9217004AD5AF /* leagueNavigatorTests.m */; };
+		BC8D81FA222C9217004AD5AF /* leagueNavigatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D81F9222C9217004AD5AF /* leagueNavigatorUITests.m */; };
+		BC8D8233222C96E2004AD5AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D8213222C96E2004AD5AF /* AppDelegate.m */; };
+		BC8D8234222C96E2004AD5AF /* TeamListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D8216222C96E2004AD5AF /* TeamListViewController.m */; };
+		BC8D8235222C96E2004AD5AF /* cfl.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821A222C96E2004AD5AF /* cfl.json */; };
+		BC8D8236222C96E2004AD5AF /* mlb.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821B222C96E2004AD5AF /* mlb.json */; };
+		BC8D8237222C96E2004AD5AF /* wnba.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821C222C96E2004AD5AF /* wnba.json */; };
+		BC8D8238222C96E2004AD5AF /* natleagued.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821D222C96E2004AD5AF /* natleagued.json */; };
+		BC8D8239222C96E2004AD5AF /* natleaguec.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821E222C96E2004AD5AF /* natleaguec.json */; };
+		BC8D823A222C96E2004AD5AF /* ncaab.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D821F222C96E2004AD5AF /* ncaab.json */; };
+		BC8D823B222C96E2004AD5AF /* engfa.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8220222C96E2004AD5AF /* engfa.json */; };
+		BC8D823C222C96E2004AD5AF /* wjhc.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8221222C96E2004AD5AF /* wjhc.json */; };
+		BC8D823D222C96E2004AD5AF /* nhl.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8222222C96E2004AD5AF /* nhl.json */; };
+		BC8D823E222C96E2004AD5AF /* natleagueb.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8223222C96E2004AD5AF /* natleagueb.json */; };
+		BC8D823F222C96E2004AD5AF /* nfl.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8224222C96E2004AD5AF /* nfl.json */; };
+		BC8D8240222C96E2004AD5AF /* engch.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8225222C96E2004AD5AF /* engch.json */; };
+		BC8D8241222C96E2004AD5AF /* natleaguea.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8226222C96E2004AD5AF /* natleaguea.json */; };
+		BC8D8242222C96E2004AD5AF /* nba.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8227222C96E2004AD5AF /* nba.json */; };
+		BC8D8243222C96E2004AD5AF /* uefa.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8228222C96E2004AD5AF /* uefa.json */; };
+		BC8D8244222C96E2004AD5AF /* mls.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D8229222C96E2004AD5AF /* mls.json */; };
+		BC8D8245222C96E2004AD5AF /* ncaaf.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822A222C96E2004AD5AF /* ncaaf.json */; };
+		BC8D8246222C96E2004AD5AF /* epl.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822B222C96E2004AD5AF /* epl.json */; };
+		BC8D8247222C96E2004AD5AF /* engcc.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822C222C96E2004AD5AF /* engcc.json */; };
+		BC8D8248222C96E2004AD5AF /* wcbk.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822D222C96E2004AD5AF /* wcbk.json */; };
+		BC8D8249222C96E2004AD5AF /* chlg.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822E222C96E2004AD5AF /* chlg.json */; };
+		BC8D824A222C96E2004AD5AF /* leagues.json in Resources */ = {isa = PBXBuildFile; fileRef = BC8D822F222C96E2004AD5AF /* leagues.json */; };
+		BC8D824B222C96E2004AD5AF /* LeagueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8D8231222C96E2004AD5AF /* LeagueListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC8D81EB222C9217004AD5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8D81C7222C9216004AD5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8D81CE222C9216004AD5AF;
+			remoteInfo = leagueNavigator;
+		};
+		BC8D81F6222C9217004AD5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC8D81C7222C9216004AD5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8D81CE222C9216004AD5AF;
+			remoteInfo = leagueNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC426AA522358B100058B01D /* TeamListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListTableViewCell.m; sourceTree = "<group>"; };
+		BC426AA722358B2C0058B01D /* TeamListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListTableViewCell.h; sourceTree = "<group>"; };
+		BC8D81CF222C9216004AD5AF /* leagueNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leagueNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8D81DC222C9216004AD5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC8D81DE222C9216004AD5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC8D81E1222C9216004AD5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC8D81E3222C9216004AD5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8D81E4222C9216004AD5AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC8D81EA222C9217004AD5AF /* leagueNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leagueNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8D81EE222C9217004AD5AF /* leagueNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leagueNavigatorTests.m; sourceTree = "<group>"; };
+		BC8D81F0222C9217004AD5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8D81F5222C9217004AD5AF /* leagueNavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leagueNavigatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8D81F9222C9217004AD5AF /* leagueNavigatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leagueNavigatorUITests.m; sourceTree = "<group>"; };
+		BC8D81FB222C9217004AD5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8D8212222C96E2004AD5AF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC8D8213222C96E2004AD5AF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC8D8216222C96E2004AD5AF /* TeamListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamListViewController.m; sourceTree = "<group>"; };
+		BC8D8217222C96E2004AD5AF /* TeamListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamListViewController.h; sourceTree = "<group>"; };
+		BC8D821A222C96E2004AD5AF /* cfl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cfl.json; sourceTree = "<group>"; };
+		BC8D821B222C96E2004AD5AF /* mlb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mlb.json; sourceTree = "<group>"; };
+		BC8D821C222C96E2004AD5AF /* wnba.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wnba.json; sourceTree = "<group>"; };
+		BC8D821D222C96E2004AD5AF /* natleagued.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = natleagued.json; sourceTree = "<group>"; };
+		BC8D821E222C96E2004AD5AF /* natleaguec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = natleaguec.json; sourceTree = "<group>"; };
+		BC8D821F222C96E2004AD5AF /* ncaab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ncaab.json; sourceTree = "<group>"; };
+		BC8D8220222C96E2004AD5AF /* engfa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = engfa.json; sourceTree = "<group>"; };
+		BC8D8221222C96E2004AD5AF /* wjhc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wjhc.json; sourceTree = "<group>"; };
+		BC8D8222222C96E2004AD5AF /* nhl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nhl.json; sourceTree = "<group>"; };
+		BC8D8223222C96E2004AD5AF /* natleagueb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = natleagueb.json; sourceTree = "<group>"; };
+		BC8D8224222C96E2004AD5AF /* nfl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nfl.json; sourceTree = "<group>"; };
+		BC8D8225222C96E2004AD5AF /* engch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = engch.json; sourceTree = "<group>"; };
+		BC8D8226222C96E2004AD5AF /* natleaguea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = natleaguea.json; sourceTree = "<group>"; };
+		BC8D8227222C96E2004AD5AF /* nba.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nba.json; sourceTree = "<group>"; };
+		BC8D8228222C96E2004AD5AF /* uefa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uefa.json; sourceTree = "<group>"; };
+		BC8D8229222C96E2004AD5AF /* mls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mls.json; sourceTree = "<group>"; };
+		BC8D822A222C96E2004AD5AF /* ncaaf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ncaaf.json; sourceTree = "<group>"; };
+		BC8D822B222C96E2004AD5AF /* epl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = epl.json; sourceTree = "<group>"; };
+		BC8D822C222C96E2004AD5AF /* engcc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = engcc.json; sourceTree = "<group>"; };
+		BC8D822D222C96E2004AD5AF /* wcbk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wcbk.json; sourceTree = "<group>"; };
+		BC8D822E222C96E2004AD5AF /* chlg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chlg.json; sourceTree = "<group>"; };
+		BC8D822F222C96E2004AD5AF /* leagues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leagues.json; sourceTree = "<group>"; };
+		BC8D8231222C96E2004AD5AF /* LeagueListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueListViewController.m; sourceTree = "<group>"; };
+		BC8D8232222C96E2004AD5AF /* LeagueListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueListViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC8D81CC222C9216004AD5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81E7222C9217004AD5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81F2222C9217004AD5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC8D81C6222C9216004AD5AF = {
+			isa = PBXGroup;
+			children = (
+				BC8D81D1222C9216004AD5AF /* leagueNavigator */,
+				BC8D81ED222C9217004AD5AF /* leagueNavigatorTests */,
+				BC8D81F8222C9217004AD5AF /* leagueNavigatorUITests */,
+				BC8D81D0222C9216004AD5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC8D81D0222C9216004AD5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D81CF222C9216004AD5AF /* leagueNavigator.app */,
+				BC8D81EA222C9217004AD5AF /* leagueNavigatorTests.xctest */,
+				BC8D81F5222C9217004AD5AF /* leagueNavigatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8D81D1222C9216004AD5AF /* leagueNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D8214222C96E2004AD5AF /* Model */,
+				BC8D824C222C9701004AD5AF /* View */,
+				BC8D8211222C96E2004AD5AF /* AppDelegate */,
+				BC8D8230222C96E2004AD5AF /* LeagueListViewController */,
+				BC8D8215222C96E2004AD5AF /* TeamListViewController */,
+				BC8D8218222C96E2004AD5AF /* Resource */,
+				BC8D81DE222C9216004AD5AF /* Assets.xcassets */,
+				BC8D81E3222C9216004AD5AF /* Info.plist */,
+				BC8D81E4222C9216004AD5AF /* main.m */,
+			);
+			path = leagueNavigator;
+			sourceTree = "<group>";
+		};
+		BC8D81ED222C9217004AD5AF /* leagueNavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D81EE222C9217004AD5AF /* leagueNavigatorTests.m */,
+				BC8D81F0222C9217004AD5AF /* Info.plist */,
+			);
+			path = leagueNavigatorTests;
+			sourceTree = "<group>";
+		};
+		BC8D81F8222C9217004AD5AF /* leagueNavigatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D81F9222C9217004AD5AF /* leagueNavigatorUITests.m */,
+				BC8D81FB222C9217004AD5AF /* Info.plist */,
+			);
+			path = leagueNavigatorUITests;
+			sourceTree = "<group>";
+		};
+		BC8D8211222C96E2004AD5AF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D8212222C96E2004AD5AF /* AppDelegate.h */,
+				BC8D8213222C96E2004AD5AF /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC8D8214222C96E2004AD5AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC8D8215222C96E2004AD5AF /* TeamListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D8217222C96E2004AD5AF /* TeamListViewController.h */,
+				BC8D8216222C96E2004AD5AF /* TeamListViewController.m */,
+				BC426AA722358B2C0058B01D /* TeamListTableViewCell.h */,
+				BC426AA522358B100058B01D /* TeamListTableViewCell.m */,
+			);
+			path = TeamListViewController;
+			sourceTree = "<group>";
+		};
+		BC8D8218222C96E2004AD5AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D8219222C96E2004AD5AF /* leagues */,
+				BC8D822F222C96E2004AD5AF /* leagues.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BC8D8219222C96E2004AD5AF /* leagues */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D821A222C96E2004AD5AF /* cfl.json */,
+				BC8D821B222C96E2004AD5AF /* mlb.json */,
+				BC8D821C222C96E2004AD5AF /* wnba.json */,
+				BC8D821D222C96E2004AD5AF /* natleagued.json */,
+				BC8D821E222C96E2004AD5AF /* natleaguec.json */,
+				BC8D821F222C96E2004AD5AF /* ncaab.json */,
+				BC8D8220222C96E2004AD5AF /* engfa.json */,
+				BC8D8221222C96E2004AD5AF /* wjhc.json */,
+				BC8D8222222C96E2004AD5AF /* nhl.json */,
+				BC8D8223222C96E2004AD5AF /* natleagueb.json */,
+				BC8D8224222C96E2004AD5AF /* nfl.json */,
+				BC8D8225222C96E2004AD5AF /* engch.json */,
+				BC8D8226222C96E2004AD5AF /* natleaguea.json */,
+				BC8D8227222C96E2004AD5AF /* nba.json */,
+				BC8D8228222C96E2004AD5AF /* uefa.json */,
+				BC8D8229222C96E2004AD5AF /* mls.json */,
+				BC8D822A222C96E2004AD5AF /* ncaaf.json */,
+				BC8D822B222C96E2004AD5AF /* epl.json */,
+				BC8D822C222C96E2004AD5AF /* engcc.json */,
+				BC8D822D222C96E2004AD5AF /* wcbk.json */,
+				BC8D822E222C96E2004AD5AF /* chlg.json */,
+			);
+			path = leagues;
+			sourceTree = "<group>";
+		};
+		BC8D8230222C96E2004AD5AF /* LeagueListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D8232222C96E2004AD5AF /* LeagueListViewController.h */,
+				BC8D8231222C96E2004AD5AF /* LeagueListViewController.m */,
+			);
+			path = LeagueListViewController;
+			sourceTree = "<group>";
+		};
+		BC8D824C222C9701004AD5AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D81E0222C9216004AD5AF /* LaunchScreen.storyboard */,
+				BC8D81DB222C9216004AD5AF /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC8D81CE222C9216004AD5AF /* leagueNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8D81FE222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigator" */;
+			buildPhases = (
+				BC8D81CB222C9216004AD5AF /* Sources */,
+				BC8D81CC222C9216004AD5AF /* Frameworks */,
+				BC8D81CD222C9216004AD5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leagueNavigator;
+			productName = leagueNavigator;
+			productReference = BC8D81CF222C9216004AD5AF /* leagueNavigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC8D81E9222C9217004AD5AF /* leagueNavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8D8201222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigatorTests" */;
+			buildPhases = (
+				BC8D81E6222C9217004AD5AF /* Sources */,
+				BC8D81E7222C9217004AD5AF /* Frameworks */,
+				BC8D81E8222C9217004AD5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8D81EC222C9217004AD5AF /* PBXTargetDependency */,
+			);
+			name = leagueNavigatorTests;
+			productName = leagueNavigatorTests;
+			productReference = BC8D81EA222C9217004AD5AF /* leagueNavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC8D81F4222C9217004AD5AF /* leagueNavigatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8D8204222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigatorUITests" */;
+			buildPhases = (
+				BC8D81F1222C9217004AD5AF /* Sources */,
+				BC8D81F2222C9217004AD5AF /* Frameworks */,
+				BC8D81F3222C9217004AD5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8D81F7222C9217004AD5AF /* PBXTargetDependency */,
+			);
+			name = leagueNavigatorUITests;
+			productName = leagueNavigatorUITests;
+			productReference = BC8D81F5222C9217004AD5AF /* leagueNavigatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC8D81C7222C9216004AD5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gaurav Thummar";
+				TargetAttributes = {
+					BC8D81CE222C9216004AD5AF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BC8D81E9222C9217004AD5AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BC8D81CE222C9216004AD5AF;
+					};
+					BC8D81F4222C9217004AD5AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BC8D81CE222C9216004AD5AF;
+					};
+				};
+			};
+			buildConfigurationList = BC8D81CA222C9216004AD5AF /* Build configuration list for PBXProject "leagueNavigator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC8D81C6222C9216004AD5AF;
+			productRefGroup = BC8D81D0222C9216004AD5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC8D81CE222C9216004AD5AF /* leagueNavigator */,
+				BC8D81E9222C9217004AD5AF /* leagueNavigatorTests */,
+				BC8D81F4222C9217004AD5AF /* leagueNavigatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8D81CD222C9216004AD5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8D8247222C96E2004AD5AF /* engcc.json in Resources */,
+				BC8D8239222C96E2004AD5AF /* natleaguec.json in Resources */,
+				BC8D823B222C96E2004AD5AF /* engfa.json in Resources */,
+				BC8D8246222C96E2004AD5AF /* epl.json in Resources */,
+				BC8D8248222C96E2004AD5AF /* wcbk.json in Resources */,
+				BC8D823F222C96E2004AD5AF /* nfl.json in Resources */,
+				BC8D823D222C96E2004AD5AF /* nhl.json in Resources */,
+				BC8D81E2222C9216004AD5AF /* LaunchScreen.storyboard in Resources */,
+				BC8D8237222C96E2004AD5AF /* wnba.json in Resources */,
+				BC8D8243222C96E2004AD5AF /* uefa.json in Resources */,
+				BC8D823E222C96E2004AD5AF /* natleagueb.json in Resources */,
+				BC8D8244222C96E2004AD5AF /* mls.json in Resources */,
+				BC8D823C222C96E2004AD5AF /* wjhc.json in Resources */,
+				BC8D823A222C96E2004AD5AF /* ncaab.json in Resources */,
+				BC8D8235222C96E2004AD5AF /* cfl.json in Resources */,
+				BC8D8249222C96E2004AD5AF /* chlg.json in Resources */,
+				BC8D81DF222C9216004AD5AF /* Assets.xcassets in Resources */,
+				BC8D8240222C96E2004AD5AF /* engch.json in Resources */,
+				BC8D8236222C96E2004AD5AF /* mlb.json in Resources */,
+				BC8D8238222C96E2004AD5AF /* natleagued.json in Resources */,
+				BC8D824A222C96E2004AD5AF /* leagues.json in Resources */,
+				BC8D8242222C96E2004AD5AF /* nba.json in Resources */,
+				BC8D8241222C96E2004AD5AF /* natleaguea.json in Resources */,
+				BC8D81DD222C9216004AD5AF /* Main.storyboard in Resources */,
+				BC8D8245222C96E2004AD5AF /* ncaaf.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81E8222C9217004AD5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81F3222C9217004AD5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC8D81CB222C9216004AD5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC426AA622358B100058B01D /* TeamListTableViewCell.m in Sources */,
+				BC8D8234222C96E2004AD5AF /* TeamListViewController.m in Sources */,
+				BC8D8233222C96E2004AD5AF /* AppDelegate.m in Sources */,
+				BC8D81E5222C9216004AD5AF /* main.m in Sources */,
+				BC8D824B222C96E2004AD5AF /* LeagueListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81E6222C9217004AD5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8D81EF222C9217004AD5AF /* leagueNavigatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D81F1222C9217004AD5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8D81FA222C9217004AD5AF /* leagueNavigatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC8D81EC222C9217004AD5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8D81CE222C9216004AD5AF /* leagueNavigator */;
+			targetProxy = BC8D81EB222C9217004AD5AF /* PBXContainerItemProxy */;
+		};
+		BC8D81F7222C9217004AD5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC8D81CE222C9216004AD5AF /* leagueNavigator */;
+			targetProxy = BC8D81F6222C9217004AD5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC8D81DB222C9216004AD5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8D81DC222C9216004AD5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC8D81E0222C9216004AD5AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC8D81E1222C9216004AD5AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC8D81FC222C9217004AD5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC8D81FD222C9217004AD5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC8D81FF222C9217004AD5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC8D8200222C9217004AD5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC8D8202222C9217004AD5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leagueNavigator.app/leagueNavigator";
+			};
+			name = Debug;
+		};
+		BC8D8203222C9217004AD5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leagueNavigator.app/leagueNavigator";
+			};
+			name = Release;
+		};
+		BC8D8205222C9217004AD5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leagueNavigator;
+			};
+			name = Debug;
+		};
+		BC8D8206222C9217004AD5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW9LRMLVS;
+				INFOPLIST_FILE = leagueNavigatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vale.leagueNavigatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leagueNavigator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC8D81CA222C9216004AD5AF /* Build configuration list for PBXProject "leagueNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D81FC222C9217004AD5AF /* Debug */,
+				BC8D81FD222C9217004AD5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8D81FE222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D81FF222C9217004AD5AF /* Debug */,
+				BC8D8200222C9217004AD5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8D8201222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D8202222C9217004AD5AF /* Debug */,
+				BC8D8203222C9217004AD5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8D8204222C9217004AD5AF /* Build configuration list for PBXNativeTarget "leagueNavigatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D8205222C9217004AD5AF /* Debug */,
+				BC8D8206222C9217004AD5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC8D81C7222C9216004AD5AF /* Project object */;
+}
